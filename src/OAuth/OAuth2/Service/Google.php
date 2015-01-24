@@ -22,6 +22,12 @@ class Google extends AbstractService
 
     const SCOPE_USERINFO_EMAIL              = 'https://www.googleapis.com/auth/userinfo.email';
     const SCOPE_USERINFO_PROFILE            = 'https://www.googleapis.com/auth/userinfo.profile';
+    
+    //Gmail 
+    const SCOPE_GMAIL_MODIFY                = 'https://www.googleapis.com/auth/gmail.modify';
+    const SCOPE_GMAIL_READONLY              = 'https://www.googleapis.com/auth/gmail.readonly';
+    const SCOPE_GMAIL_COMPOSE               = 'https://www.googleapis.com/auth/gmail.compose';
+    const SCOPE_GMAIL_ALL                   = 'https://mail.google.com/';
 
     // Google+
     const SCOPE_GPLUS_ME                    = 'https://www.googleapis.com/auth/plus.me';
